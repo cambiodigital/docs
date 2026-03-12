@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+llms-txt: https://cambiodigital.github.io/docs/llms.txt

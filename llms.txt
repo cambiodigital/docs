@@ -1,0 +1,2 @@
+- Kommo API
+  https://cambiodigital.github.io/docs/kommo/llms.txt
