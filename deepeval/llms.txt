@@ -1,0 +1,158 @@
+# DeepEval
+
+> Open-source LLM evaluation framework by Confident AI. Supports RAG, agents,
+  chatbots, and virtually any LLM use case with 50+ research-backed metrics.
+
+## Getting Started
+
+- [Quick Introduction](https://deepeval.com/docs/getting-started): Install DeepEval and run your first LLM test
+- [AI Agents](https://deepeval.com/docs/getting-started-agents): Setup LLM tracing and test end-to-end task completion
+- [Chatbots](https://deepeval.com/docs/getting-started-chatbots): Setup multi-turn test cases and evaluate conversations
+- [RAG](https://deepeval.com/docs/getting-started-rag): Evaluate RAG end-to-end and test retriever/generator separately
+- [MCP](https://deepeval.com/docs/getting-started-mcp): Getting started with Model Context Protocol evaluations
+- [LLM Arena](https://deepeval.com/docs/getting-started-llm-arena): Compare LLM outputs head-to-head
+
+## LLM Evals
+
+- [Introduction](https://deepeval.com/docs/evaluation-introduction)
+- [Test Cases - Single-Turn](https://deepeval.com/docs/evaluation-test-cases)
+- [Test Cases - Multi-Turn](https://deepeval.com/docs/evaluation-multiturn-test-cases)
+- [Test Cases - Arena](https://deepeval.com/docs/evaluation-arena-test-cases)
+- [Datasets](https://deepeval.com/docs/evaluation-datasets)
+- [Prompts](https://deepeval.com/docs/evaluation-prompts)
+- [MCP](https://deepeval.com/docs/evaluation-mcp)
+- [Tracing](https://deepeval.com/docs/evaluation-llm-tracing)
+- [End-to-End Evals](https://deepeval.com/docs/evaluation-end-to-end-llm-evals)
+- [Component-Level Evals](https://deepeval.com/docs/evaluation-component-level-llm-evals)
+- [Unit Testing in CI/CD](https://deepeval.com/docs/evaluation-unit-testing-in-ci-cd)
+- [Flags and Configs](https://deepeval.com/docs/evaluation-flags-and-configs)
+
+## Eval Metrics
+
+- [Introduction](https://deepeval.com/docs/metrics-introduction)
+
+## Eval Metrics - Custom
+
+- [G-Eval](https://deepeval.com/docs/metrics-llm-evals)
+- [DAG](https://deepeval.com/docs/metrics-dag)
+- [Conversational G-Eval](https://deepeval.com/docs/metrics-conversational-g-eval)
+- [Conversational DAG](https://deepeval.com/docs/metrics-conversational-dag)
+- [Arena G-Eval](https://deepeval.com/docs/metrics-arena-g-eval)
+- [Do it yourself](https://deepeval.com/docs/metrics-custom)
+
+## Eval Metrics - RAG
+
+- [Answer Relevancy](https://deepeval.com/docs/metrics-answer-relevancy)
+- [Faithfulness](https://deepeval.com/docs/metrics-faithfulness)
+- [Contextual Precision](https://deepeval.com/docs/metrics-contextual-precision)
+- [Contextual Recall](https://deepeval.com/docs/metrics-contextual-recall)
+- [Contextual Relevancy](https://deepeval.com/docs/metrics-contextual-relevancy)
+
+## Eval Metrics - Agentic
+
+- [Task Completion](https://deepeval.com/docs/metrics-task-completion)
+- [Tool Correctness](https://deepeval.com/docs/metrics-tool-correctness)
+- [Argument Correctness](https://deepeval.com/docs/metrics-argument-correctness)
+- [Step Efficiency](https://deepeval.com/docs/metrics-step-efficiency)
+- [Plan Adherence](https://deepeval.com/docs/metrics-plan-adherence)
+- [Plan Quality](https://deepeval.com/docs/metrics-plan-quality)
+
+## Eval Metrics - Multi-Turn
+
+- [Turn Relevancy](https://deepeval.com/docs/metrics-turn-relevancy)
+- [Role Adherence](https://deepeval.com/docs/metrics-role-adherence)
+- [Knowledge Retention](https://deepeval.com/docs/metrics-knowledge-retention)
+- [Conversation Completeness](https://deepeval.com/docs/metrics-conversation-completeness)
+- [Goal Accuracy](https://deepeval.com/docs/metrics-goal-accuracy)
+- [Tool Use](https://deepeval.com/docs/metrics-tool-use)
+- [Topic Adherence](https://deepeval.com/docs/metrics-topic-adherence)
+- [Turn Faithfulness](https://deepeval.com/docs/metrics-turn-faithfulness)
+- [Turn Contextual Precision](https://deepeval.com/docs/metrics-turn-contextual-precision)
+- [Turn Contextual Recall](https://deepeval.com/docs/metrics-turn-contextual-recall)
+- [Turn Contextual Relevancy](https://deepeval.com/docs/metrics-turn-contextual-relevancy)
+
+## Eval Metrics - MCP
+
+- [MCP-Use](https://deepeval.com/docs/metrics-mcp-use)
+- [Multi-Turn MCP-Use](https://deepeval.com/docs/metrics-multi-turn-mcp-use)
+- [MCP Task Completion](https://deepeval.com/docs/metrics-mcp-task-completion)
+
+## Eval Metrics - Safety
+
+- [Bias](https://deepeval.com/docs/metrics-bias)
+- [Toxicity](https://deepeval.com/docs/metrics-toxicity)
+- [Non-Advice](https://deepeval.com/docs/metrics-non-advice)
+- [Misuse](https://deepeval.com/docs/metrics-misuse)
+- [PII Leakage](https://deepeval.com/docs/metrics-pii-leakage)
+- [Role Violation](https://deepeval.com/docs/metrics-role-violation)
+
+## Eval Metrics - Non-LLM
+
+- [Exact Match](https://deepeval.com/docs/metrics-non-llm-evals)
+- [Pattern Match](https://deepeval.com/docs/metrics-non-llm-evals#pattern-match)
+- [Json Correctness](https://deepeval.com/docs/metrics-json-correctness)
+
+## Eval Metrics - Images
+
+- [Image Coherence](https://deepeval.com/docs/metrics-image-coherence)
+- [Image Helpfulness](https://deepeval.com/docs/metrics-image-helpfulness)
+- [Image Reference](https://deepeval.com/docs/metrics-image-reference)
+- [Text to Image](https://deepeval.com/docs/metrics-text-to-image)
+- [Image Editing](https://deepeval.com/docs/metrics-image-editing)
+
+## Eval Metrics - Others
+
+- [Summarization](https://deepeval.com/docs/metrics-summarization)
+- [Prompt Alignment](https://deepeval.com/docs/metrics-prompt-alignment)
+- [Hallucination](https://deepeval.com/docs/metrics-hallucination)
+- [RAGAS](https://deepeval.com/docs/metrics-ragas)
+
+## Prompt Optimization
+
+- [Introduction](https://deepeval.com/docs/prompt-optimization-introduction)
+- [GEPA](https://deepeval.com/docs/prompt-optimization-gepa)
+- [MIPROv2](https://deepeval.com/docs/prompt-optimization-miprov2)
+
+## Synthetic Data Generation
+
+- [Introduction](https://deepeval.com/docs/synthesizer-introduction)
+- [From Documents](https://deepeval.com/docs/synthesizer-generate-from-docs)
+- [From Contexts](https://deepeval.com/docs/synthesizer-generate-from-contexts)
+- [From Scratch](https://deepeval.com/docs/synthesizer-generate-from-scratch)
+- [From Goldens](https://deepeval.com/docs/synthesizer-generate-from-goldens)
+- [Conversation Simulator](https://deepeval.com/docs/conversation-simulator)
+
+## Red-Teaming
+
+- [Introduction](https://deepeval.com/docs/red-teaming-introduction)
+- [Adversarial Attacks](https://deepeval.com/docs/red-teaming-attack-enhancements)
+- [Vulnerabilities](https://deepeval.com/docs/red-teaming-vulnerabilities)
+
+## Benchmarks
+
+- [Introduction](https://deepeval.com/docs/benchmarks-introduction)
+- [MMLU](https://deepeval.com/docs/benchmarks-mmlu)
+- [HellaSwag](https://deepeval.com/docs/benchmarks-hellaswag)
+- [BIG-Bench Hard](https://deepeval.com/docs/benchmarks-big-bench-hard)
+- [DROP](https://deepeval.com/docs/benchmarks-drop)
+- [TruthfulQA](https://deepeval.com/docs/benchmarks-truthfulqa)
+- [HumanEval](https://deepeval.com/docs/benchmarks-humaneval)
+- [IFEval](https://deepeval.com/docs/benchmarks-ifeval)
+- [SQuAD](https://deepeval.com/docs/benchmarks-squad)
+- [GSM8K](https://deepeval.com/docs/benchmarks-gsm8k)
+- [MathQA](https://deepeval.com/docs/benchmarks-mathqa)
+- [LogiQA](https://deepeval.com/docs/benchmarks-logiqa)
+- [BoolQ](https://deepeval.com/docs/benchmarks-boolq)
+- [ARC](https://deepeval.com/docs/benchmarks-arc)
+- [BBQ](https://deepeval.com/docs/benchmarks-bbq)
+- [LAMBADA](https://deepeval.com/docs/benchmarks-lambada)
+- [Winogrande](https://deepeval.com/docs/benchmarks-winogrande)
+
+## Others
+
+- [CLI Settings](https://deepeval.com/docs/command-line-interface)
+- [Environment Variables](https://deepeval.com/docs/environment-variables)
+- [Troubleshooting](https://deepeval.com/docs/troubleshooting)
+- [FAQ](https://deepeval.com/docs/faq)
+- [Data Privacy](https://deepeval.com/docs/data-privacy)
+- [Miscellaneous](https://deepeval.com/docs/miscellaneous)
