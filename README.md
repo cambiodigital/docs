@@ -11,6 +11,7 @@ This repository stores internal and public documentation used by the team.
 ## Structure
 
 - `kommo/`: documentation related to Kommo.
+- `deepeval/`: documentation related to DeepEval.
 
 ## Usage
 
